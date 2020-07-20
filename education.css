@@ -1,0 +1,23 @@
+#one{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    border: 10px solid gray;
+    padding: 15px;
+    border-image: url(border.png) 30 round;   
+}
+#two{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border: 10px solid gray;
+    padding: 15px;
+    border-image: url(border.png) 30 round;  
+}
+body{
+    background-color: black;
+}
+#three{
+    background-color: gray;
+    text-align: center;
+}

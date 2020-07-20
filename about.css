@@ -1,0 +1,19 @@
+#three{
+  text-align: center;
+  color:#f75802;
+  font-size: x-large;
+ 
+  
+}
+#four{
+  background-color: #000000;
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  
+}
+body{
+  background-color: black;
+}
