@@ -22,7 +22,9 @@ body{
   transition: 0.3s ease;
   animation: mymove 5s infinite;
 }
-
+.change .bar{
+  background-color: black;
+}
 #bar1 {
   transform: translateY(-4px);
 }
