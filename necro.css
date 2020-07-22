@@ -15,27 +15,34 @@ body{
 }
 .bar{
   background-color: hsl(129, 98%, 49%);  
-  width: 100%;
-  height: 5px;
+  width: 60px;
+  height:10px;
   display: block;
-  border-radius: 5px;
+  border-radius: 2px;
   transition: 0.3s ease;
-  animation: mymove 5s infinite;
+  margin-left: 80px;
+  cursor: pointer;
+  position: fixed;
+  padding-top:5px ;
+  left: 1300px;
 }
 .change .bar{
   background-color: black;
 }
+
 #bar1 {
-  transform: translateY(-4px);
+  transform: translateY(-20px);
 }
-#bar3 {
-  transform: translateY(4px); 
+
+  #bar3 {
+    transform: translateY(20px);
 }
-.change #bar1{
-  transform: translateY(4px) rotate(45deg);
+
+.change #bar1 {
+  transform: rotate(50deg);
 }
-.change #bar3{
-  transform: translateY(-6px) rotate(-45deg);
+.change #bar3 {
+  transform: rotate(-50deg);
 }
 .change #bar2{
   opacity: 0;
@@ -45,34 +52,43 @@ body{
   margin-top: 0px;
   
 }
+.h1{
+  position: fixed;
+  text-size-adjust: 30px;
+}
 .menu-bg {
   background-color: hsl(118, 96%, 49%);
   height: 100vh;
-  width: 440px;
-  margin-left: 1500px;
+  width: 300px;
+  
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
+  left: 1250px;
   z-index: 1;
+  transform: translateX;
 }
 .change-bg{
   display: block;
   
 }
+.change bar{
+  background-color: black;
+  
+}
 
 
-.na li a{
-width: 50px;
-padding: 50px ;
-
-text-align: center;
-color:black;
- margin-left: 1200px;   
- display: none;
- text-decoration: none;
- text-align: center;
- 
+.na li a {
+  width: 50px;
+  padding: 50px;
+  text-align: center;
+  color: black;
+  margin-left: 1100px;
+  display: none;
+  text-decoration: none;
+  text-align: center;
+  height: 100vh;
+  position: fixed;
 }
 #pi{
   animation: mymove 5s infinite;
@@ -92,6 +108,7 @@ left: 0px;
 position:absolute;
 
 }
+
 
 .neon{
     top: 50%;
