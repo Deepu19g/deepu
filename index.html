@@ -2,12 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="necro.css">
     <script async>(function(w, d) { w.CollectId = "5ece01a8f906363bd69e61cd"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>
    <!--
@@ -72,10 +70,12 @@
         from {top: 0px;}
         to {top: 100px;}
       }
-     </style>
+      </style>
   </head>
   <body>
-    <div id="menubar"  >
+   <div class="container">  
+    <div class="row"> 
+    <div id="menubar" class="col-xs-6" >
      <div id="menu" onclick="onclickmenu()">
        <div id="bar1" class="bar"></div>
        <div id="bar2" class="bar"></div>
@@ -95,14 +95,14 @@
         </ul>
     </div>
     
-    </div>
+    </div class="col-xs-6">
     
     <div id="menu-bg" class="menu-bg"></div>
-    <h1 class="neon" data-text="[Neon_Light]">The</h1>
-    <h1 class="neon" data-text="[Neon_Light]" id="one">Official</h1>
-    <h1 class="neon" data-text="[Neon_Light]" id="two">Site</h1>
-  
-   
+    <h1 class="neon" data-text="[Neon_Light]"style="font-size:50px">The</h1>
+    <h1 class="neon" data-text="[Neon_Light]"style="font-size:50px" id="one">Official</h1>
+    <h1 class="neon" data-text="[Neon_Light]" style="font-size:50px" id="two">Site</h1>
+    </div>  
+    </div> 
   </body>
               
  <script src="necro.js"></script>
