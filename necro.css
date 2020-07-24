@@ -1,108 +1,108 @@
 
 body{
-    background-color: black;
+  background-color: black;
 }
 #menu{
-  width: 50px;
-  cursor: pointer;
-  height: 40px;
-  margin-left: 1400px;
-  margin-top: 40px;
+width: 50px;
+cursor: pointer;
+height: 40px;
+margin-left: 1400px;
+margin-top: 40px;
 }
 
 .change{
-  display:block;
+display:block;
 }
 .bar{
-  background-color: hsl(129, 98%, 49%);  
-  width: 60px;
-  height:10px;
-  display: block;
-  border-radius: 2px;
-  transition: 0.3s ease;
-  margin-left: 80px;
-  cursor: pointer;
-  position: fixed;
-  padding-top:5px ;
-  left: 1300px;
+background-color: hsl(129, 98%, 49%);  
+width: 60px;
+height:10px;
+display: block;
+border-radius: 2px;
+transition: 0.3s ease;
+margin-left: 80px;
+cursor: pointer;
+position: fixed;
+padding-top:5px ;
+right: 100px;
 }
 .change .bar{
-  background-color: black;
+background-color: black;
 }
 
 #bar1 {
-  transform: translateY(-20px);
+transform: translateY(-20px);
 }
 
-  #bar3 {
-    transform: translateY(20px);
+#bar3 {
+  transform: translateY(20px);
 }
 
 .change #bar1 {
-  transform: rotate(50deg);
+transform: rotate(50deg);
 }
 .change #bar3 {
-  transform: rotate(-50deg);
+transform: rotate(-50deg);
 }
 .change #bar2{
-  opacity: 0;
+opacity: 0;
 }
 .na li{
-  list-style: none;
-  margin-top: 0px;
-  
+list-style: none;
+margin-top: 0px;
+
 }
 .h1{
-  position: fixed;
-  text-size-adjust: 30px;
+position: fixed;
+text-size-adjust: 30px;
 }
 .menu-bg {
-  background-color: hsl(118, 96%, 49%);
-  height: 100vh;
-  width: 300px;
-  
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 1250px;
-  z-index: 1;
-  transform: translateX;
+background-color: hsl(118, 96%, 49%);
+height: 100vh;
+width: 300px;
+
+display: none;
+position: fixed;
+top: 0;
+left: 1250px;
+z-index: 1;
+transform: translateX;
 }
 .change-bg{
-  display: block;
-  
+display: block;
+
 }
 .change bar{
-  background-color: black;
-  
+background-color: black;
+
 }
 
 
 .na li a {
-  width: 50px;
-  padding: 50px;
-  text-align: center;
-  color: black;
-  margin-left: 1100px;
-  display: none;
-  text-decoration: none;
-  text-align: center;
-  height: 100vh;
-  position: fixed;
+width: 50px;
+padding: 50px;
+text-align: center;
+color: black;
+margin-left: 1060px;
+display: none;
+text-decoration: none;
+text-align: center;
+height: 100vh;
+position: fixed;
 }
 #pi{
-  animation: mymove 5s infinite;
+animation: mymove 5s infinite;
 }
 
 .change li a{
-  display: block;
- 
+display: block;
+
 }
 #menubar{
-  z-index: 2;
-  position: absolute;
+z-index: 2;
+position: absolute;
 }
- #nav-icon1{
+#nav-icon1{
 top: 0px;
 left: 0px;
 position:absolute;
@@ -111,26 +111,26 @@ position:absolute;
 
 
 .neon{
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    color:white;
-    margin: 0;
-    padding: 0 20px;
-    text-shadow:0 0 20px #0df505;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color:white;
+  margin: 0;
+  padding: 0 20px;
+  text-shadow:0 0 20px #0df505;
 }
 .neon:before
 {
-    content: attr(The);
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
-    color:#0df505 ;
-    padding: 0 20px;
-    filter: blur(40px);
-  
+  content: attr(The);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  color:#0df505 ;
+  padding: 0 20px;
+  filter: blur(40px);
+
 }
 .neon::after
 {
@@ -147,39 +147,62 @@ filter: blur(40px);
 padding: 0 20px;
 }
 #one{
-    top: 60%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    color:white;
-    margin: 0;
-    padding: 0 50px;
-    text-shadow:0 0 20px #0df505;
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color:white;
+  margin: 0;
+  padding: 0 50px;
+  text-shadow:0 0 20px #0df505;
 }
 #two{
-    top: 70%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    color:white;
-    margin: 0;
-    padding: 0 50px;
-    text-shadow:0 0 20px #0df505;
-}
-.change li  {
-      /* This timing applies on the way OUT */
-  transition-timing-function: ease-in;
-
-  /* Quick on the way out */
-  transition: 1s;
-
-  /* Hide thing by pushing it outside by default */
-
+  top: 70%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  color:white;
+  margin: 0;
+  padding: 0 50px;
+  text-shadow:0 0 20px #0df505;
 }
 
-  
-  /* Icon 1 */
- 
-  
-  
-  
+
+
+
+ @media  (max-width:500px){
+  h1{
+    font-size: 15vw !important;
+  }
+  .bar{
+    left: 190px !important;
+  margin-top: 50px !important;
+   width: 50px !important;
+  }
+  #menu-bg{
+    left: 0px !important;
+    width: 500px !important;
+  }
+  .neon{
+    transform: translate(-65%,50%) !important;
+    top: 35% !important;
+  }
+  #two{
+    top: 56% !important;
+    left: 55% !important;
+  }
+  #one{
+    top: 46% !important;
+    left: 60% !important;
+  }
+  .na li a{
+    margin-left: 40px !important;
+    font-size: 30px !important;
+  }
+
+#chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
+  bottom: 15px;
+  left: 40px;
+  position: absolute;
+}
+}
