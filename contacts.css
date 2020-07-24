@@ -77,15 +77,18 @@ ul li a
         position: fixed !important;
         right: 80px !important;
         top: 170px !important;
+        display: block;
     }
     #four h3{
         position: fixed !important;
         right: 70px !important;
         top: 330px !important;
+        display: block;
     }
     #five h3{
         position: fixed !important;
         right: 90px !important;
         top: 490px !important;
+        display: block;
     }
 }
