@@ -10,14 +10,12 @@ body{
     height: 100vh;
     background: #262626;
 }
-ul{
-    display: flex;
-}
+
 ul li{
     position: relative;
     display:block;
     color: #666;
-    font-size: 40px;
+    font-size: 80px;
     width: 60px;
     height: 60px;
     background: #171515;
@@ -57,4 +55,37 @@ ul li a:hover{
 ul li a 
 {
   color: #666;
+}
+#two li {
+    display: inline;
+    padding: 30px;
+}
+@media (max-width:500px){
+    #two li {
+        display: block;
+        padding: 30px !important;
+           
+        padding-right: 200px !important;
+        padding-bottom: 40px !important;
+    }
+    ul li{
+        border-radius: 0px !important;
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    #three h3{
+        position: fixed !important;
+        right: 80px !important;
+        top: 170px !important;
+    }
+    #four h3{
+        position: fixed !important;
+        right: 70px !important;
+        top: 330px !important;
+    }
+    #five h3{
+        position: fixed !important;
+        right: 90px !important;
+        top: 490px !important;
+    }
 }
