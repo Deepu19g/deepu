@@ -93,3 +93,9 @@ body{
         filter: blur(30px) hue-rotate(360deg) ;
     }
 }
+@media (max-width:500px){
+    .container{
+        width: 300px;
+    }
+}}
+}
