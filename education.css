@@ -1,6 +1,6 @@
 #one{
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 10%;
     border: 10px solid gray;
     padding: 15px;
@@ -8,7 +8,7 @@
 }
 #two{
     position: absolute;
-    top: 30%;
+    top: 15%;
     left: 60%;
     border: 10px solid gray;
     padding: 15px;
@@ -20,4 +20,21 @@ body{
 #three{
     background-color: gray;
     text-align: center;
+}
+@media (max-width:500px){
+    #two {
+        position: absolute !important;
+        top: 65% !important;
+        left: 5% !important;
+        right: 5% !important;
+    }
+    img{
+        height: 160px !important;
+        width: 100% !important;
+    }
+    #one{
+        top: 15% !important;
+        left: 5% !important;
+        right: 5% !important;
+    }
 }
