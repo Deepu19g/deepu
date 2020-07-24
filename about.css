@@ -3,17 +3,30 @@
   color:#f75802;
   font-size: x-large;
  
-  
-}
-#four{
   background-color: #000000;
   position: absolute;
-  top: 55%;
+  top: 63%;
   left: 20%;
   right: 20%;
-  text-align: center;
   
 }
+
+  
+  
+
 body{
   background-color: black;
+}
+@media (max-width:500px){
+  #three{
+  left: 0px !important;
+  right: 0px !important;
+
+  }
+  .img-circle {
+    margin-left: 20px !important;
+    margin-top: 45% !important;
+    height: 300px !important;
+    width: 300px !important;
+}
 }
