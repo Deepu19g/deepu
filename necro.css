@@ -12,8 +12,8 @@ margin-top: 40px;
 }
 
 .change{
-display:block;
-}
+  display:block;
+  }
 .bar{
 background-color: hsl(129, 98%, 49%);  
 width: 60px;
@@ -57,9 +57,9 @@ margin-top: 0px;
 position: fixed;
 
 }
-.menu-bg {
-background-color: hsl(118, 96%, 49%);
-height: 100vh;
+#menu-bg {
+background-color: hsl(118, 96%, 49%) ;
+height: 100vh ;
 width: 500px;
 
 display: none;
@@ -69,10 +69,7 @@ right: 0px;
 z-index: 1;
 
 }
-.change-bg{
-display: block;
 
-}
 .change bar{
 background-color: black;
 
@@ -169,7 +166,10 @@ padding: 0 20px;
   text-shadow:0 0 20px #0df505;
 }
 
+.change-bg{
+  display: block !important;
 
+ }
 
 
  @media (min-width:360px ) and  (max-width:500px){
