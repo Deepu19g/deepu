@@ -81,13 +81,16 @@ width: 50px;
 padding: 50px;
 text-align: center;
 color: black;
-margin-left: 1060px;
+
 display: none;
 text-decoration: none;
 text-align: center;
 height: 100vh;
 position: fixed;
 font-size: 50px;
+right: 260px !important;
+margin-top: 0px !important;
+transform: translateY(-30%);
 }
 #pi{
 animation: mymove 5s infinite;
