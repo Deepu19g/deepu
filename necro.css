@@ -216,7 +216,7 @@ padding: 0 20px;
 }
 @media (min-width:400px) and (max-width:600px){
 /*   .bar{ right: 10% !important;} */
-  .na li a {
-    margin-top: -50px !important;
-  }
+.na li a {
+  margin-top: 120px !important;
+}
 }

@@ -76,7 +76,7 @@ ul li a
     #three h3{
         position: fixed !important;
         right: 80px !important;
-        top: 170px !important;
+        top: 252px !important;
         display: block;
     }
     #four h3{
@@ -90,5 +90,14 @@ ul li a
         right: 90px !important;
         top: 490px !important;
         display: block;
+    }
+}
+@media (min-width:400px) and (max-width:500px)
+{
+    #four h3{
+        top:410px !important
+    }
+    #five h3{
+        top: 572px !important;
     }
 }
