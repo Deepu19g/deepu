@@ -5,7 +5,7 @@
  
   background-color: #000000;
   position: absolute;
-  top: 47%;
+  
   left: 20%;
   right: 20%;
   
@@ -17,11 +17,12 @@
 body{
   background-color: black;
 }
-@media (max-width:500px){
+
+@media (min-width:300px) and (max-width:500px) {
   #three{
   left: 0px !important;
   right: 0px !important;
-
+  top: 62%;
   }
  .img-circle {
     margin-left: 20px !important;
@@ -29,4 +30,12 @@ body{
     height: 300px !important;
     width: 300px !important;
 }
+}
+@media (min-width:400px) and (max-width:500px){
+ 
+ #three{
+    top:47% !important;
+   
+}
+
 }

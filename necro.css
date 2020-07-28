@@ -173,6 +173,10 @@ padding: 0 20px;
   display: block !important;
 
  }
+ .na li{
+  list-style: none;
+  padding: 80px;
+}
 
 
  @media (min-width:360px ) and  (max-width:500px){
@@ -212,7 +216,13 @@ padding: 0 20px;
   left: 40px;
   position: absolute;
 }
-
+.na li{
+  padding: 55px !important;
+}
+.na li a {
+  transform: translateY(-20%);
+  right: 200px !important;
+}
 }
 @media (min-width:400px) and (max-width:600px){
 /*   .bar{ right: 10% !important;} */
