@@ -76,19 +76,19 @@ ul li a
     #three h3{
         position: fixed !important;
         right: 80px !important;
-        top: 252px !important;
+        top: 126px ;
         display: block;
     }
     #four h3{
         position: fixed !important;
         right: 70px !important;
-        top: 330px !important;
+        top: 282px !important;
         display: block;
     }
     #five h3{
         position: fixed !important;
         right: 90px !important;
-        top: 490px !important;
+        top: 445px !important;
         display: block;
     }
 }
@@ -99,5 +99,8 @@ ul li a
     }
     #five h3{
         top: 572px !important;
+    }
+    #three h3{
+        top: 252px;
     }
 }
