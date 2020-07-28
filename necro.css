@@ -25,7 +25,7 @@ margin-left: 80px;
 cursor: pointer;
 position: fixed;
 padding-top:5px ;
-right: 100px;
+right: 30px;  /*   Was 100px before */
 }
 .change .bar{
 background-color: black;
@@ -180,7 +180,8 @@ padding: 0 20px;
     font-size: 15vw !important;
   }
   .bar{
-    left: 190px !important;
+/*     left: 190px !important; */
+    right: 30px !important;
   margin-top: 50px !important;
    width: 50px !important;
   }
@@ -214,9 +215,7 @@ padding: 0 20px;
 
 }
 @media (min-width:400px) and (max-width:600px){
-  .bar{
-    right: 10% !important;
-  }
+/*   .bar{ right: 10% !important;} */
   .na li a {
     margin-top: -50px !important;
   }
