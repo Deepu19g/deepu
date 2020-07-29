@@ -60,7 +60,15 @@ ul li a
     display: inline;
     padding: 30px;
 }
-
+.one{
+    display: none;
+}
+.two{
+    display: none;
+}
+.three{
+    display: none;
+}
 @media (max-width:500px){
     #two li {
         display: block;
@@ -78,9 +86,14 @@ ul li a
 }
 @media (min-width:400px) and (max-width:500px)
 {
-   
-    .one{
-        position: relative !important;
-        float: right !important;
+    
+    .one {
+        display: inline !important;
+    }
+    .two{
+        display: inline !important;
+    }
+    .three{
+        display: inline !important;
     }
 }
