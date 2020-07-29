@@ -22,20 +22,24 @@ body{
   #three{
   left: 0px !important;
   right: 0px !important;
-  top: 62%;
+  top: 67%;
   }
- .img-circle {
-    margin-left: 20px !important;
+  .img-circle {
+    margin-left: 3% !important;
     margin-top: 20% !important;
     height: 300px !important;
-    width: 300px !important;
+    width: 280px !important;
+    margin-right: 3% !important;
 }
 }
-@media (min-width:400px) and (max-width:500px){
+@media (min-width:362px) and (max-width:500px){
  
  #three{
-    top:54% !important;
+    top:57% !important;
    
+}
+.img-circle{
+  margin-left: 12% !important;
 }
 
 }

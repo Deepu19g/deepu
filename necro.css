@@ -179,13 +179,13 @@ padding: 0 20px;
 }
 
 
- @media (min-width:360px ) and  (max-width:500px){
+ @media (min-width:300px ) and  (max-width:500px){
   h1{
     font-size: 15vw !important;
   }
   .bar{
 /*     left: 190px !important; */
-    right: 30px !important;
+    right: 15% !important;
   margin-top: 50px !important;
    width: 50px !important;
   }
@@ -211,16 +211,15 @@ padding: 0 20px;
     margin-top: -120px;
   }
 
-#chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
-  bottom: 15px;
-  left: 40px;
-  position: absolute;
+  #chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
+    bottom: 3% !important;
+    right: 10% !important;
 }
 .na li{
   padding: 55px !important;
 }
 .na li a {
-  transform: translateY(-20%);
+  transform: translateY(-30%);
   right: 200px !important;
 }
 }
@@ -229,4 +228,33 @@ padding: 0 20px;
 .na li a {
   margin-top: 100px !important;
 }
+}
+@media (min-width:370px) and (max-width:600px)
+{
+.na li a{
+  transform: translateY(-18%);
+    right: 200px !important;
+}
+}
+@media (min-width:700px) and (max-width:800px){
+  .neon{
+    font-size: 15vw;
+  }
+  #one{
+    font-size: 15vw;
+  }
+  #three{
+    font-size: 15vw;
+  }
+}
+@media (min-width:1000px){
+  .neon{
+    font-size: 5vw;
+  }
+  #one{
+    font-size: 5vw;
+  }
+  #two{
+    font-size: 5vw;
+  }
 }
