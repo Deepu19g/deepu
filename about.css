@@ -43,3 +43,15 @@ body{
 }
 
 }
+@media (min-width:700px) and (max-width:900px)
+{
+  .img-circle{
+    margin-left:33% !important ;
+  }
+  #three{
+    left: 10%;
+    right: 10%;
+    top: 40%;
+  }
+ 
+}

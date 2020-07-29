@@ -47,3 +47,12 @@ body{
         top: 70%;
     }
 }
+@media (min-width:700px) and (max-width:1000px){
+    #two{
+        top: 74%;
+        left: 11%;
+      }
+      #two img{
+          width: 600px;
+      }
+}

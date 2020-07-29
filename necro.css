@@ -246,6 +246,17 @@ padding: 0 20px;
   #three{
     font-size: 15vw;
   }
+  .bar{
+    width: 80px;
+    top:8%;
+  }
+  #menu-bg{
+    width: 100vw;
+  }
+  .na li a{
+    right: 50% !important;
+    margin-top: 30% !important;
+  }
 }
 @media (min-width:1000px){
   .neon{
