@@ -185,7 +185,7 @@ padding: 0 20px;
   }
   .bar{
 /*     left: 190px !important; */
-    right: 15% !important;
+    right: 12% !important;
   margin-top: 50px !important;
    width: 50px !important;
   }
@@ -295,4 +295,30 @@ padding: 0 20px;
     right: 60% !important;
   }
  
+}
+@media (min-width:250px) and (max-width:300px)
+{
+  .neon{
+    font-size: 10vh;
+    top: 45%;
+  }
+  #chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
+    bottom: 7% !important;
+}
+#one{
+  top: 55%;
+}
+#two{
+  top: 65%;
+}
+.bar{
+  width: 55px;
+}
+.na li{
+  padding: 60px;
+}
+.na li a
+{
+  right: 200px !important;
+}
 }

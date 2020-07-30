@@ -44,7 +44,7 @@ body{
         width: 100%;
     }
     #two{
-        top: 70%;
+        top: 80%;
     }
 }
 @media (min-width:700px) and (max-width:1000px){
@@ -67,4 +67,14 @@ body{
  #one img{
      width: 750px;
  }
+}
+@media (min-width:250px) and (max-width:300px){
+    img{
+        width: 200px;
+        height: 150px;
+      }
+      #two{
+          top: 65%;
+          left: 10%;
+      }
 }

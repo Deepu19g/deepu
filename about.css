@@ -25,7 +25,7 @@ body{
   top: 67%;
   }
   .img-circle {
-    margin-left: 3% !important;
+    margin-left: 4% !important;
     margin-top: 20% !important;
     height: 300px !important;
     width: 280px !important;
@@ -34,10 +34,7 @@ body{
 }
 @media (min-width:362px) and (max-width:500px){
  
- #three{
-    top:57% !important;
-   
-}
+ 
 .img-circle{
   margin-left: 12% !important;
 }
@@ -45,21 +42,27 @@ body{
 }
 @media (min-width:700px) and (max-width:900px)
 {
-  .img-circle{
-    margin-left:33% !important ;
-  }
+  .img-circle {
+    margin-left: 28% !important;
+    height: 400px;
+    width: 400px;
+    margin-top: 10%;
+}
   #three{
     left: 10%;
     right: 10%;
-    top: 40%;
+    top: 50%;
+  }
+  p{
+    font-size: xx-large;
   }
  
 }
 @media (min-width:800px) and (max-width:1200px){
   .img-circle{
-    margin-left: 33%;
-    height: 400px;
-    width: 380px;
+    margin-left: 31%;
+    height: 500px;
+    width: 500px;
     margin-top: 10%;
   }
   #three{
@@ -67,6 +70,9 @@ body{
     left: 10%;
     right: 10%;
     top: 45%;
+  }
+  p{
+    font-size: xxx-large;
   }
 }
 @media(min-width:1200px){
@@ -76,5 +82,21 @@ body{
   height: 300px;
   width: 280px;
  }
+
+}
+@media (min-width:250px) and (max-width:300px){
+  #three{
+    left: 0px;
+    right: 0px;
+    top: 55%;
+  }
+  .img-circle{
+    height: 300px;
+    width: 250px;
+  }
+  .container-fluid{
+    margin-top: 11%;
+  }
+ 
 
 }
