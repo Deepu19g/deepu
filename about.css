@@ -55,3 +55,26 @@ body{
   }
  
 }
+@media (min-width:800px) and (max-width:1200px){
+  .img-circle{
+    margin-left: 33%;
+    height: 400px;
+    width: 380px;
+    margin-top: 10%;
+  }
+  #three{
+    font-size: xx-large;
+    left: 10%;
+    right: 10%;
+    top: 45%;
+  }
+}
+@media(min-width:1200px){
+ .img-circle{
+   margin-left:600px;
+  margin-top: 10%;
+  height: 300px;
+  width: 280px;
+ }
+
+}

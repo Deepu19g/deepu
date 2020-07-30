@@ -56,3 +56,15 @@ body{
           width: 600px;
       }
 }
+@media (min-width:1000px) and (max-width:1200px){
+ #two{
+     top: 74%;
+     left: 11%;
+ }
+ #two img{
+     width: 750px;
+ }
+ #one img{
+     width: 750px;
+ }
+}

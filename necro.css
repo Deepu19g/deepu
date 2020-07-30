@@ -226,7 +226,7 @@ padding: 0 20px;
 @media (min-width:400px) and (max-width:600px){
 /*   .bar{ right: 10% !important;} */
 .na li a {
-  margin-top: 100px !important;
+  margin-top: -25px !important;
 }
 }
 @media (min-width:370px) and (max-width:600px)
@@ -258,7 +258,7 @@ padding: 0 20px;
     margin-top: 30% !important;
   }
 }
-@media (min-width:1000px){
+@media (min-width:1200px){
   .neon{
     font-size: 5vw;
   }
@@ -268,4 +268,31 @@ padding: 0 20px;
   #two{
     font-size: 5vw;
   }
+}
+@media (min-width:800px) and (max-width:1200px){
+  .neon{
+    font-size: 15vw;
+  }
+  #one{
+    font-size: 15vw;
+  }
+  #two{
+    font-size: 15vw;
+  }
+  .bar{
+    top: 5%;
+    width: 85px;
+  }
+  #menu-bg{
+    width: 100vw;
+  }
+  .na li{
+    padding: 110px;
+  }
+  .na li a {
+    transform: translateY(0%);
+    font-size: 80px;
+    right: 60% !important;
+  }
+ 
 }
