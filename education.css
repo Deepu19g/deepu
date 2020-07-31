@@ -24,7 +24,7 @@ body{
 @media (min-width:300px) and (max-width:500px){
     #two {
         position: absolute !important;
-        top: 70% ;
+        top: 75% ;
         left: 5% !important;
         right: 5% !important;
     }
@@ -77,4 +77,20 @@ body{
           top: 65%;
           left: 10%;
       }
+}
+@media (min-width:590px) and (max-width:620px){
+    #two{
+        top: 74%;
+        left: 5%;
+      }
+      #two img{
+          width: 500px;
+      }
+      #one img{
+          width: 500px;
+      }
+      #one{
+          left: 5%;
+      }
+      
 }

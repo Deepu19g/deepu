@@ -124,3 +124,23 @@ body{
         min-height: 550px;
     }
 }
+@media (min-width:250px) and (max-width:300px){
+    .container{
+    width: 240px;
+}
+}
+@media (min-width:590px) and (max-width:620px){
+    .form .inputBox input{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .container{
+        min-height: 450px;
+    }
+    .form p{
+        font-size: 27px;
+    }
+    .form h2{
+        font-size: 35px;
+    }
+}

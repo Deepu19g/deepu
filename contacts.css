@@ -102,3 +102,18 @@ ul li a
         font-size: 140px;
     }
 }
+@media (min-width:250px) and (max-width:300px){
+    #two li{
+        padding-right: 150px;
+    }
+    .one{
+        display: inline;
+        
+    }
+    .two{
+        display: inline;
+    }
+    .three{
+        display: inline;
+    }
+}

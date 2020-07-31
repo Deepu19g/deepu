@@ -179,7 +179,7 @@ padding: 0 20px;
 }
 
 
- @media (min-width:300px ) and  (max-width:500px){
+ @media (min-width:300px ) and  (max-width:590px){
   h1{
     font-size: 15vw !important;
   }
@@ -187,11 +187,11 @@ padding: 0 20px;
 /*     left: 190px !important; */
     right: 12% !important;
   margin-top: 50px !important;
-   width: 50px !important;
+   width: 70px !important;
   }
   #menu-bg{
     left: 0px !important;
-    width: 500px !important;
+    width: 100vw !important;
   }
   .neon{
     transform: translate(-65%,50%) !important;
@@ -207,7 +207,7 @@ padding: 0 20px;
   }
   .na li a{
     margin-left: 40px !important;
-    font-size: 30px !important;
+    font-size: 35px !important;
     margin-top: -120px;
   }
 
@@ -219,24 +219,19 @@ padding: 0 20px;
   padding: 55px !important;
 }
 .na li a {
-  transform: translateY(-30%);
+  transform: translateY(-38%);
   right: 200px !important;
 }
 }
-@media (min-width:400px) and (max-width:600px){
-/*   .bar{ right: 10% !important;} */
-.na li a {
-  margin-top: -25px !important;
-}
-}
-@media (min-width:370px) and (max-width:600px)
+
+@media (min-width:370px) and (max-width:400px)
 {
 .na li a{
   transform: translateY(-18%);
-    right: 200px !important;
+    right: 238px !important;
 }
 }
-@media (min-width:700px) and (max-width:800px){
+@media (min-width:700px) and (max-width:799px){
   .neon{
     font-size: 15vw;
   }
@@ -272,12 +267,15 @@ padding: 0 20px;
 @media (min-width:800px) and (max-width:1200px){
   .neon{
     font-size: 15vw;
+    top: 45%;
   }
   #one{
     font-size: 15vw;
+    top: 55%;
   }
   #two{
     font-size: 15vw;
+    top: 65%;
   }
   .bar{
     top: 5%;
@@ -290,7 +288,7 @@ padding: 0 20px;
     padding: 110px;
   }
   .na li a {
-    transform: translateY(0%);
+    margin-top: 200px !important;
     font-size: 80px;
     right: 60% !important;
   }
@@ -321,4 +319,33 @@ padding: 0 20px;
 {
   right: 200px !important;
 }
+}
+@media (min-width:600px) and (max-width:620px){
+  #menu-bg{
+    width: 100vw;
+  }
+  .neon{
+    font-size: 15vw;
+  }
+  #one{
+    font-size: 15vw;
+  }
+  #two{
+    font-size: 15vw;
+  }
+  .na li a {
+    margin-top: 35% !important;
+    right: 54% !important;
+    font-size: 60px;
+  }
+  .bar{
+    width: 80px;
+    top: 8%;
+  }
+}
+@media (min-width:400px) and (max-width:590px){
+  .na li a{
+    margin-top: 50px !important;
+    font-size: 50px !important;
+  }
 }
