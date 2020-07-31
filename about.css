@@ -130,3 +130,9 @@ p{
     font-size: xx-large;
   }
 }
+@media (max-width:322px){
+  #three{
+    top: 76%;
+  }
+ 
+}

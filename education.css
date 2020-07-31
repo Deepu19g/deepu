@@ -94,3 +94,8 @@ body{
       }
       
 }
+@media (max-width:322px){
+    #two{
+        top: 80%;
+      }
+}
