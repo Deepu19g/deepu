@@ -31,12 +31,19 @@ body{
     width: 280px !important;
     margin-right: 3% !important;
 }
+
 }
 @media (min-width:362px) and (max-width:500px){
  
  
 .img-circle{
-  margin-left: 12% !important;
+  margin-left: 15% !important;
+}
+p{
+  font-size: xx-large;
+}
+#three{
+  top: 60%;
 }
 
 }
@@ -114,4 +121,12 @@ body{
   right: 0%;
   top: 58%;
 }
+}
+@media (min-width:400px) and (max-width:500px){
+  #three{
+    top: 67%;
+  }
+  p{
+    font-size: xx-large;
+  }
 }

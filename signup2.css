@@ -144,3 +144,18 @@ body{
         font-size: 35px;
     }
 }
+@media (min-width:430px) and (max-width:500px){
+    .container{
+    width: 400px;
+    height: 380px;
+    }
+    .form p{
+        font-size: 23px;
+    }
+    .form .inputBox input{
+        font-size: 28px;
+    }
+    .form h2{
+        font-size: 34px;
+    }
+}

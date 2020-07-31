@@ -219,7 +219,7 @@ padding: 0 20px;
   padding: 55px !important;
 }
 .na li a {
-  transform: translateY(-38%);
+  
   right: 200px !important;
 }
 }
@@ -229,6 +229,7 @@ padding: 0 20px;
 .na li a{
   transform: translateY(-18%);
     right: 238px !important;
+    font-size: 50px !important;
 }
 }
 @media (min-width:700px) and (max-width:799px){
@@ -345,7 +346,8 @@ padding: 0 20px;
 }
 @media (min-width:400px) and (max-width:590px){
   .na li a{
-    margin-top: 50px !important;
+    margin-top:24% !important;
     font-size: 50px !important;
+    right: 58% !important;
   }
 }
