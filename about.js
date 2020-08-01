@@ -1,7 +1,7 @@
 
 var i = 0;
 
-var txt = 'I am Deepak Mathew, a first year student at Govt.Model Engineering college, majoring in Computer Engineering and currently staying in Kottayam.i didnt have much interest in computer science but in time i started to like it.i started to learn html during lockdown days,and after some time i thought about doing a website for practice. I spent most of the time spending in front of my laptop. i am interested in learning more in this field. I have learned different computer languages like C, C++, Python along with html,css,javascript etc.. I try to watch webseries and read a bit in my free time'; 
+var txt = 'I am Deepak Mathew, a first year student at Govt.Model Engineering college, majoring in Computer Engineering and currently staying in Kottayam.Initially i was not much interested in Computer Science,but over time i have developed a liking for it.Having started learning HTML during lockdown period,i began spending most of my time in front of my laptop.As of now,I am proficient in different computer languages like C,C++,Python etc.and familiar with web development basics such as HTML,CSS and Javascript.I am also eagerly interested in learning more about this field.Apart from web development and programming,I love reading and watching web series. '; 
 
 
 
