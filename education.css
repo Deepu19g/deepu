@@ -99,3 +99,11 @@ body{
         top: 80%;
       }
 }
+@media (min-width:1200px){
+    #one{
+        left: 3%;
+    }
+    #two{
+        left: 58%;
+    }
+}
