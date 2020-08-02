@@ -40,20 +40,20 @@ p{
  
  
 .img-circle{
-  margin-left: 11% !important;
+  margin-left: 17% !important;
 }
 p{
   font-size: 24px;
 }
 #three{
-  top: 65%;
+  top: 62%;
 }
 
 }
 @media (min-width:700px) and (max-width:900px)
 {
   .img-circle {
-    margin-left: 23% !important;
+    margin-left: 20% !important;
     height: 400px;
     width: 400px;
     margin-top: 10%;
@@ -67,6 +67,11 @@ p{
     font-size: 36px;
   }
  
+}
+@media(min-width:759px) and (max-width:770px){
+  .img-circle{
+    margin-left: 22% !important;
+  }
 }
 @media (min-width:800px) and (max-width:1100px){
   .img-circle{
@@ -130,7 +135,7 @@ p{
 }
 @media (min-width:400px) and (max-width:500px){
   #three{
-    top: 56%;
+    top: 49%;
   }
   p{
     font-size: x-large;
@@ -141,9 +146,9 @@ p{
     top: 64%;
   }
   .img-circle{
-   margin-left: 10% !important;
-   height: 230px !important;
-   width: 230px !important;
+   margin-left: 13% !important;
+   height: 210px !important;
+   width: 210px !important;
   }
  
 }
@@ -157,7 +162,7 @@ p{
 }
 @media (min-width:370px) and (max-width:382px){
   #three{
-    top: 55%;
+    top: 51%;
   }
   p{
     font-size: 25px;
@@ -168,6 +173,6 @@ p{
     top: 73%;
   }
   .img-circle{
-    margin-left: 16% !important;
+    margin-left: 19% !important;
   }
 }

@@ -17,7 +17,7 @@ margin-top: 40px;
 .bar{
 background-color: hsl(129, 98%, 49%);  
 width: 60px;
-height:10px;
+height:6px;
 display: block;
 border-radius: 2px;
 transition: 0.3s ease;
@@ -245,8 +245,9 @@ padding: 0 20px;
     font-size: 15vw;
   }
   .bar{
-    width: 80px;
+    width: 88px;
     top:8%;
+    height: 10px;
   }
   #menu-bg{
     width: 100vw;
@@ -366,8 +367,9 @@ transform: translateY(-35%);
     transform: translateY(-90px);
   }
   .bar{
-    width: 75px;
+    width: 78px;
     top: 8%;
+    height: 10px;
   }
   #bar3{
     transform: translateY(22px);
@@ -382,6 +384,9 @@ transform: translateY(-35%);
     font-size: 50px !important;
     right: 58% !important;
     margin-top: -100px;
+  }
+  .bar{
+    width: 60px !important;
   }
 }
 @media (max-width:322px){
@@ -411,11 +416,19 @@ transform: translateY(-35%);
     font-size: 70px;
   }
   .bar{
-    width: 80px;
+    width: 95px;
   }
 }
 @media (max-width:660px) and (min-width:610px){
  .neon{
    font-size: 9vw;
  }
+}
+@media (min-width:440px) and (max-width:460px){
+  .na li a {
+    margin-top: -180px;
+  }
+  .bar{
+    width: 55px !important;
+  }
 }
