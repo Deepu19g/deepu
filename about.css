@@ -22,13 +22,13 @@ body{
 @media (min-width:300px) and (max-width:500px) {
   #three{
   
-  top: 67%;
+  top: 62%;
   }
   .img-circle {
-    margin-left: 7% !important;
+    margin-left: 11% !important;
     margin-top: 20% !important;
-    height: 300px !important;
-    width: 280px !important;
+    height: 250px !important;
+    width: 250px !important;
     margin-right: 3% !important;
 }
 p{
