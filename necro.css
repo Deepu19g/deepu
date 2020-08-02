@@ -32,11 +32,11 @@ background-color: black;
 }
 
 #bar1 {
-transform: translateY(-20px);
+transform: translateY(-16px);
 }
 
 #bar3 {
-  transform: translateY(20px);
+  transform: translateY(16px);
 }
 
 .change #bar1 {
@@ -184,9 +184,10 @@ padding: 0 20px;
   }
   .bar{
 /*     left: 190px !important; */
-    right: 12% !important;
-  margin-top: 50px !important;
+    right: 6% !important;
+  margin-top: 0px !important;
    width: 54px !important;
+   height: 7px;
   }
   #menu-bg{
     left: 0px !important;
@@ -211,8 +212,8 @@ padding: 0 20px;
   }
 
   #chat-bot-launcher-container.chat-bot-avatar-launcher, #chat-bot-launcher-container.chat-bot-launcher-notext {
-    bottom: 3% !important;
-    right: 10% !important;
+    bottom: 2% !important;
+    right: 3% !important;
 }
 .na li{
   padding: 55px !important;
@@ -235,10 +236,10 @@ padding: 0 20px;
 }
 @media (min-width:700px) and (max-width:799px){
   .neon{
-    font-size: 15vw;
+    font-size: 13vw;
   }
   #one{
-    font-size: 15vw;
+    font-size: 13vw;
   }
   #three{
     font-size: 15vw;
@@ -254,6 +255,12 @@ padding: 0 20px;
     right: 54% !important;
    transform: translateY(-70px);
     font-size: 60px;
+  }
+  #bar1{
+    transform: translateY(-23px);
+  }
+  #bar3{
+    transform: translateY(23px);
   }
 }
 @media (min-width:1200px){
@@ -290,7 +297,8 @@ transform: translateY(-35%);
   }
   .bar{
     top: 5%;
-    width: 85px;
+    width: 90px;
+    height: 13px;
   }
   #menu-bg{
     width: 100vw;
@@ -303,6 +311,12 @@ transform: translateY(-35%);
     font-size: 70px;
     right: 60% !important;
     transform: translateY(-200px);
+  }
+  #bar1{
+    transform: translateY(-26px);
+  }
+  #bar3{
+    transform: translateY(26px);
   }
  
 }
@@ -352,8 +366,14 @@ transform: translateY(-35%);
     transform: translateY(-90px);
   }
   .bar{
-    width: 80px;
+    width: 75px;
     top: 8%;
+  }
+  #bar3{
+    transform: translateY(22px);
+  }
+  #bar1{
+    transform: translateY(-22px);
   }
 }
 @media (min-width:400px) and (max-width:590px){
@@ -361,7 +381,7 @@ transform: translateY(-35%);
   
     font-size: 50px !important;
     right: 58% !important;
-    margin-top: -160px;
+    margin-top: -100px;
   }
 }
 @media (max-width:322px){
@@ -370,11 +390,19 @@ transform: translateY(-35%);
     padding: 35px !important;
   }
   .na li a{
-     margin-top: -196px;
+     margin-top: -210px;
   }
   .bar{
-    width: 55px !important;
+    width: 43px !important;
     right: 6% !important;
+    margin-top: 0px !important;
+    height: 6px;
+  }
+  #bar1{
+    transform: translateY(-15px);
+  }
+  #bar3{
+    transform: translateY(15px);
   }
 }
 @media (min-width:899px) and (max-width:1100px){

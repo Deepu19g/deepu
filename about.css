@@ -21,12 +21,11 @@ body{
 
 @media (min-width:300px) and (max-width:500px) {
   #three{
-  left: 0px !important;
-  right: 0px !important;
+  
   top: 67%;
   }
   .img-circle {
-    margin-left: 6% !important;
+    margin-left: 7% !important;
     margin-top: 20% !important;
     height: 300px !important;
     width: 280px !important;
@@ -44,7 +43,7 @@ p{
   margin-left: 11% !important;
 }
 p{
-  font-size: x-large;
+  font-size: large;
 }
 #three{
   top: 60%;
@@ -125,17 +124,16 @@ p{
 }
 #three{
   font-size: xx-large;
-  left: 0%;
-  right: 0%;
+ 
   top: 58%;
 }
 }
 @media (min-width:400px) and (max-width:500px){
   #three{
-    top: 67%;
+    top: 56%;
   }
   p{
-    font-size: xx-large;
+    font-size: x-large;
   }
 }
 @media (max-width:322px){
@@ -143,7 +141,9 @@ p{
     top: 76%;
   }
   .img-circle{
-   margin-left: 2% !important;
+   margin-left: 10% !important;
+   height: 230px !important;
+   width: 230px !important;
   }
  
 }
